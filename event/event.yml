@@ -4,11 +4,11 @@ spring:
   data:
     mongodb:
       uri: mongodb://172.27.1.101:27017,172.27.1.101:27017/test
-feature:zhanglugao1
+feature: zhanglugao1
 ---
 spring:
   profiles: docker
   data:
     mongodb:
       host: mongo
-feature:zhanglugao2
+feature: zhanglugao2
